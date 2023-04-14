@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>Email: {{ email }}</p>
+    <p>Enrichment Data:</p>
+ {% if json_response %}
+        <pre>{{ json_response }}</pre>
+    {% else %}
+        <p>No enrichment results to display.</p>
+    {% endif %}
+</body>
+</html>
