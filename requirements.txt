@@ -1,4 +1,4 @@
 PDLPY
-flask
-request
+flask 
+request 2.7.0
 json
